@@ -4,7 +4,7 @@ public class ArrayListProgram {
     public static void main(String args[]){
         ArrayList al=new ArrayList<>();
         al.add(10);
-        al.add("Raja");
+        al.add("Raja S");
         al.add("SAP");
         System.out.println(al);
     }
