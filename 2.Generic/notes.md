@@ -30,5 +30,38 @@ BankAccount<String> current = new BankAccount<String>();//error
 **E** - Element<br>
 **K** - Key<br>
 **N** - Number<br>
-**V** - Value
+**V** - Value<br>
+
+### WildCards in Java Generics
+---
+The Symbol used as Wildcard is **?**
+**?** represents any type
+
+Example:-
+```java
+public static void deposite(AraayList<?> money){
+    //codes.
+}
+```
+### Upper bounded wildcards
+Upper Bounded wildcards are used to restrict the upper bound of parameter type<br>
+"? extends UpperBound_Class" represent Upper Bounded Wildcards
+
+Example:-
+```java
+public statuc void deposite(ArrayList<? extends Number> money){
+    //codes
+}
+``` 
+### Lower bounded wildcard
+Lower Bounded wildcards are used to restrict the unknown type to a specufuc parameter type<br>
+"? super LowerBound_class" represents Lower Bunded wildcards
+
+Example:-
+```java
+public statuc void deposite(ArrayList<? super Integer> money){
+    //codes
+}
+```
+
 
