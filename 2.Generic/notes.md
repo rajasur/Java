@@ -32,10 +32,10 @@ BankAccount<String> current = new BankAccount<String>();//error
 **N** - Number<br>
 **V** - Value<br>
 
-### WildCards in Java Generics
+#### WildCards in Java Generics
 ---
-The Symbol used as Wildcard is **?**
-**?** represents any type
+- The Symbol used as Wildcard is ?
+- ? represents any type
 
 Example:-
 ```java
